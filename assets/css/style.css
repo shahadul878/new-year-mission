@@ -1,6 +1,6 @@
-html {
-    max-width: 1600px;
-    margin: 0 auto;
+* {
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -18,9 +18,13 @@ body {
 }
 
 header {
-    padding: 20px 0;
+    padding: 50px 0;
     width: 100%;
     margin: 0 auto;
+}
+
+.p-60 {
+    padding: 60px 0;
 }
 
 a.logo {
@@ -31,7 +35,6 @@ a.logo {
 a {
     text-decoration: none;
 }
-
 
 nav {
     /* display: flex; */
@@ -61,4 +64,420 @@ nav ul li a {
 
 .m-auto {
     margin: 0 auto;
+}
+
+.new-year-banner {
+    background-image: url(../img/banner-image.png);
+    height: 600px;
+    width: 100%;
+    background-color: #100919;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 16px;
+    position: relative;
+    background-blend-mode: lighten;
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.new-year-banner p {
+    color: white;
+    font-size: 32px;
+    font-family: Merriweather;
+    font-weight: 400;
+    word-wrap: break-word;
+    z-index: 1;
+}
+
+.new-year-banner h1 {
+    color: white;
+    font-size: 72px;
+    font-family: Merriweather;
+    font-weight: 900;
+    line-height: 95px;
+    max-width: 632px;
+    z-index: 1;
+}
+
+.new-year-banner .overlay {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.discount-section h3 {
+    color: #FF0000;
+    font-size: 88px;
+    font-family: Inter;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.discount-section p {
+    color: #FF0000;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.discount-section h4 {
+    color: #070211;
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.mid-night-party {
+    background-image: url(../img/mid-night-party.png);
+    height: 600px;
+    width: 100%;
+    background-color: #100919;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+
+.mid-night-party .wrapper {
+    padding: 120px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.mid-night-party .wrapper h3 {
+    color: white;
+    font-size: 64px;
+    font-family: Merriweather, sans-serif;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7px;
+    margin-bottom: 24px;
+}
+
+.mid-night-party .wrapper p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-family: Inter, serif;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 48px;
+}
+
+section.mid-night-party .overlay {
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.mid-night-party a.btn {
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 700;
+    text-transform: uppercase;
+    word-wrap: break-word;
+    padding: 32px;
+}
+
+section.new-year-event {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%);
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+section.new-year-event ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 48px;
+}
+
+.new-year-event ul li {
+    color: #070211;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.new-year-event ul li span {
+    color: #FF0000;
+}
+
+.new-year-event a {
+    padding: 16px 32px;
+    background: #FF0000;
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px;
+}
+
+section.new-year-offer {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.new-year-offer .col-1 p:first-child {
+    color: #FF0000;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.new-year-offer .col-1 h4 {
+    color: #070211;
+    font-size: 48px;
+    font-family: Merriweather;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.new-year-offer .col-1 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.new-year-offer .col-3 h4 {
+    color: #FF0000;
+    font-size: 48px;
+    font-family: Inter;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.new-year-offer .col-3 p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 43px;
+}
+
+.holiday {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.holiday p:first-child {
+    color: #070211;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.holiday h2 {
+    color: #070211;
+    font-size: 72px;
+    font-family: Merriweather;
+    font-weight: 900;
+}
+
+.holiday h2 span {
+    color: #FF0000;
+}
+
+.holiday p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.holiday img {
+    margin-top: 64px;
+}
+
+.portfolio p:first-child {
+    color: #FF0000;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.portfolio h2 {
+    color: #070211;
+    font-size: 48px;
+    font-family: Merriweather;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.portfolio p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 896px;
+    margin-bottom: 48px;
+}
+
+.portfolio .portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.portfolio .portfolio-items .portfolio-item img {
+    height: 100%;
+}
+
+section.newsletter {
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    text-align: center;
+}
+
+.newsletter img {
+    margin: 40px 0;
+}
+
+section.newsletter h2 {
+    color: #070211;
+    font-size: 48px;
+    font-family: Merriweather;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-bottom: 22px;
+}
+
+.newsletter p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 896px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+section.newsletter {
+}
+
+.newsletter form {
+}
+
+.newsletter form input {
+    padding: 25px 30px;
+    width: 50%;
+    border-radius: 50px;
+    border: none;
+}
+
+.newsletter form button {
+    padding: 21px 56px;
+    border-radius: 0 50px 50px 0;
+    border: none;
+    margin-left: -207px;
+    background: #FF0000;
+    color: #fff;
+    position: absolute;
+    font-size: 19px;
+    font-family: Inter;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+footer {
+    background: #070211;
+    padding: 70px 0;
+    margin-top: 120px;
+    color: #fff;
+}
+
+footer .footer-top-left {
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 40px;
+    width: 375px;
+}
+
+footer .footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.footer-top-right ul {
+    list-style: none;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer-top-right ul li a {
+    color: #fff;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+    padding: 48px 0;
+}
+
+.footer-bottom a {
+    color: #fff;
+}
+
+.footer {
+    padding: 48px 0;
+    border-top: 1px rgba(255, 255, 255, 0.15) solid;
+    border-bottom: 1px rgba(255, 255, 255, 0.15) solid;
+}
+
+.social-media {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+section.discount-section {
+    margin-bottom: 60px;
 }
